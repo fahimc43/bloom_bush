@@ -1,0 +1,55 @@
+/* sheared style */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.btn-primary {
+  background-color: #e55473;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Header related style */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 150px 50px 150px;
+  background-color: #fceef1;
+}
+
+.banner-img {
+  width: 636px;
+}
+
+.banner-img img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: -52px;
+}
+
+/* .banner-content {
+  gap: 30px;
+} */
+
+.banner-content > h2 {
+  font-size: 80px;
+  width: 680px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-content > p {
+  font-size: 18px;
+  width: 630px;
+  margin-bottom: 20px;
+}
